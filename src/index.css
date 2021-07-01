@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
+
+header {
+  background: transparent;
+  opacity: 0.8;
+  color: black;
+  font-family: "Benne", serif;
+}
+
+.opening-page {
+  background-image: url("images/openingpage.gif");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Benne", serif;
+}
+
+.opening-body {
+  text-align: left;
+  color: whitesmoke;
+}
+
+#opening-card {
+  background: rgba(0, 0, 0, 0);
+  color: whitesmoke;
+  border: none;
+}
+
+.header {
+  font-family: "Benne", serif;
+  padding: 5px;
+  background-color: whitesmoke;
+}
+
+.main-page {
+  background-image: url("images/mainpage.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  filter: grayscale(100%);
+  font-family: "Benne", serif;
+}
+
+#main-card {
+  text-align: left;
+  background: transparent;
+  color: whitesmoke;
+  border: none;
+}
+
+.about-page {
+  background-image: url("images/aboutpage.gif");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Benne", serif;
+}
+
+#about-card {
+  text-align: center;
+  background: transparent;
+  color: whitesmoke;
+  border: none;
+}
+
+.zodiac-page {
+  background-color: black;
+  background: url("./images/maybe.gif");
+  background-attachment: fixed;
+  font-family: "Benne", serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  min-height: 300vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.card-group {
+  min-height: 50px !important;
+  height: 400px;
+  width: 150px;
+  text-align: center;
+  opacity: 0.8;
+  color: black;
+}
+
+#zodiac-container {
+  background: rgba(0, 0, 0, 0);
+}
+
+.maybe-gif {
+  margin: auto;
+  display: block;
+  width: 90%;
+}
+
+.journal-page {
+  background-image: url("images/curves.gif");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Benne", serif;
+}
+
+#create-form {
+  background: transparent;
+  color: whitesmoke;
+  padding: 20px;
+  margin-top: 500px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+#journal-title {
+  background-color: black;
+  opacity: 0.9;
+  padding: 8px;
+  width: 14vw;
+}
+
+#journal-content {
+  background-color: black;
+  opacity: 0.9;
+  padding: 8px;
+  width: 14vw;
+}
+
+#create-button {
+  background-color: black;
+  opacity: 0.9;
+  border: none;
+}
+
+.journal-entry {
+  margin: 10px;
+}
+
+div .container {
+  position: absolute;
+  top: 100px;
+  background-color: black;
+  color: whitesmoke;
+  opacity: 0.9;
+  margin: 10px;
+}
+
+.playsound {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#playsound-button {
+  background-color: black;
+  opacity: 0.4;
+  color: whitesmoke;
+  font-family: "Benne", serif;
+  padding: 5px;
+}
+
+div .card-body {
+  padding: 0;
+}
