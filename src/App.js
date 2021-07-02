@@ -1,5 +1,5 @@
 import React from 'react';
-import PlaySound from './components/PlaySound';
+// import PlaySound from './components/PlaySound';
 import { withRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './components/Header';
@@ -12,7 +12,7 @@ function App(props) {
       {path !== '/' && <Header />}
       { routes }
 
-      <PlaySound />
+      {/* <PlaySound /> */}
     </React.Fragment>
   );
 };
